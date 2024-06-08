@@ -15,8 +15,8 @@ body {
 
 /* Navigation Bar */
 nav {
-    background-color: #333;
-    padding: 10px 0;
+    background-color: #970a0a;
+    padding: 25px 0;
 }
 
 nav ul {
@@ -50,7 +50,8 @@ nav ul li a {
 
 /* Flex Container */
 .flex-container {
-    display: flex;
+    display: grid;
+    grid-template-columns: auto;
     flex-wrap: wrap;
     gap: 20px;
 }
@@ -58,7 +59,7 @@ nav ul li a {
 /* Grid Container */
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: auto ;
     gap: 20px;
 }
 
